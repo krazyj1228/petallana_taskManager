@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(118deg, #ff4654 0%, #ff7d86 24%, #ffffff 63%, #ffffff 100%);
+}
+
+body::before {
+    background: radial-gradient(ellipse 46% 60% at 78% 28%, rgba(255, 255, 255, .72), transparent 72%);
+}
+
+.brand-mark,
+.eyebrow,
+.section-number,
+h1 em {
+    color: #0f1923;
+}
+
+.intro {
+    padding: 52px 0 38px;
+}
+
+.notice {
+    margin-bottom: 18px;
+}
+
+.workspace {
+    padding-top: 22px;
+}
+
+@media (max-width: 760px) {
+    .intro {
+        padding: 44px 0 30px;
+    }
+}
