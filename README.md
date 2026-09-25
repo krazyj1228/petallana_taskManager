@@ -9,7 +9,7 @@ Taskline helps users organize daily work by creating tasks, reviewing their curr
 ## Project Information
 
 - Project Code: WST21-PM-2026-SF
-- Student Name: Jeff Petallana
+- Student Name: Jeff Daniel C. Petallana
 - Course & Year: BSIT-2
 - Database Used: SQLite
 
