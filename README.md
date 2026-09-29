@@ -1,10 +1,3 @@
-# Taskline
-
-A focused personal task manager built with Laravel, SQLite, Blade, and Vite.
-
-## Project Purpose
-
-Taskline helps users organize daily work by creating tasks, reviewing their current list, updating task details, deleting finished or unnecessary tasks, and marking tasks as pending or completed.
 
 ## Project Information
 
@@ -20,6 +13,34 @@ Taskline helps users organize daily work by creating tasks, reviewing their curr
 - Edit Task
 - Delete Task
 - Update Status
+
+## Task Management Walkthrough
+
+Follow the screenshots in order to create and manage tasks in Taskline.
+
+### 1. Open the task workspace
+
+Start the app and open the dashboard. The workspace shows the **New task** form alongside the **Current list**, where saved tasks appear.
+
+![Taskline task workspace](screenshots/1.png)
+
+### 2. Enter a task
+
+In the **New task** form, enter a task name. Add optional notes for context, choose **Pending** or **Completed**, then select **Add to list** to save it.
+
+![Entering task details](screenshots/2.png)
+
+### 3. Review the current list
+
+After saving, find the task in **Current list**. Each task shows its name, any notes, its status, and its creation date.
+
+![Tasks displayed in the current list](screenshots/3.png)
+
+### 4. Update a task
+
+Use the check control on a task to switch it between pending and completed. Select the pencil control to edit its details, or the **×** control to delete it. The updated list is shown below.
+
+![Updated task list](screenshots/4.png)
 
 ## Run locally
 
